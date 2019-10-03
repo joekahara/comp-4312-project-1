@@ -4,7 +4,7 @@ Cloud Computing assignment - Python/Flask app with a few additional packages for
 Group Project:
 (Enter names etc here)
 Kayson Scavarelli - 0679679
-
+Mekaal Swerhun - 0664033
 
 API: https://openexchangerates.org/ (free account - updates rates every hour)
 
