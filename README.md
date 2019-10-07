@@ -6,6 +6,7 @@ Group Project:
 Kayson Scavarelli - 0679679
 Mekaal Swerhun - 0664033
 Joseph Kahara - 0670135
+Jasmine Foley - 0593591 
 
 API: https://openexchangerates.org/ (free account - updates rates every hour)
 
