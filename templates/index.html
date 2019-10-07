@@ -131,23 +131,29 @@ body {
     <h1 class="cover-heading">Currency Conversion</h1>
     <p class="lead">Gives conversion rate for many currencies to or from.</p>
     
-	<form>
-            from: <select name="currency_from">
-                {% for currency in currencies %}
-                    <option value="{{currency}}" {{'selected="selected"' if currency_from==currency}}>
-                    {{currency}}
-                    </option>
-                {% endfor %}
-                  </select> to: <select name="currency_to">
-                {% for currency in currencies %}
-                    <option value="{{currency}}" {{'selected="selected"' if currency_to==currency}}>
-                    {{currency}}
-                    </option>
-                {% endfor %}
-                </select>
-            <input type="submit" value="Submit">
-        </form>
-        1 {{currency_from}} = {{currency_to}} {{rate}}
+	<form action="/convert" method="POST">
+      <input type="text" name="amount" id="amount"><br>
+      <select name="base" id="base">
+        <option value="USD">
+        USD  
+        </option>
+        <option value="CAD">
+        CAD    
+        </option>
+
+      </select><br>
+
+      <select name="to" id="to">
+          <option value="USD">
+            USD
+          </option>
+          <option value="CAD">
+              CAD
+          </option>
+      </select><br>
+      </form>
+      <input type="submit" value="Submit" method="GET">
+      <p id="{{ result }}">{{ result }}</p>
 
   </main>
 
