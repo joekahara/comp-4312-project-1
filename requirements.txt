@@ -1,0 +1,4 @@
+Flask==1.0.2
+requests==2.22.0
+sys==3.6
+json==3.6
