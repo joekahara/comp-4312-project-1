@@ -1,27 +1,27 @@
 # Cloud Currency Converter
 Cloud Computing assignment - Python/Flask app with a few additional packages for future expansion. (IE RSS feeds, weather, more robust conversions, etc.)  
  
-Group Project:
-Kayson Scavarelli - 0679679
-Mekaal Swerhun - 0664033
-Joseph Kahara - 0670135
+Group Project:</br>
+Kayson Scavarelli - 0679679</br>
+Mekaal Swerhun - 0664033</br>
+Joseph Kahara - 0670135</br>
 Jasmine Foley - 0593591 
 
-App:
-Python 3.7
-Flask 1.0.2
-requests 2.22.0
-CSS/HTML5
+App:</br>
+Python 3.7</br>
+Flask 1.0.2</br>
+requests 2.22.0</br>
+CSS/HTML5</br>
 Bootstrap as an additional CSS resource.
 
-To do:
+To do:</br>
 Currency input. The API supports it I just have it reading in '1' as the value.
 
-Updates:
+Updates:</br>
 Having issues getting input properly read from the index template. New API as the others I found don't allow for custom input and limit requests etc.
 
-To get your local git working again:
- pip install flask (if you haven't already)
+To get your local git working again:</br>
+ pip install flask (if you haven't already)</br>
  pip install requests
 
  python convertapp.py
