@@ -15,10 +15,10 @@ CSS/HTML5</br>
 Bootstrap as an additional CSS resource.
 
 To do:</br>
-Currency input. The API supports it I just have it reading in '1' as the value.
+
 
 Updates:</br>
-Having issues getting input properly read from the index template. New API as the others I found don't allow for custom input and limit requests etc.
+All main features added
 
 To get your local git working again:</br>
  pip install flask (if you haven't already)</br>
