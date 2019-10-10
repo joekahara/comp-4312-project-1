@@ -20,18 +20,18 @@
                                         <span class="input-group-text">From: </span>
                                     </div>
                                     <select class="selectpicker" name = "base">
-                                        <option>AUD</option>
-                                        <option>BGN</option>
-                                        <option selected>CAD</option>
-                                        <option>CZK</option>
-                                        <option>DKK</option>
-                                        <option>EUR</option>
-                                        <option>GBP</option>
-                                        <option>INR</option>
-                                        <option>JPY</option>
-                                        <option>MXN</option>
-                                        <option>SEK</option> 
-                                        <option>USD</option>
+                                        <option {% if info %}{% if info.base == "AUD" %} selected {% endif %}{% endif %}>AUD</option>
+                                        <option {% if info %}{% if info.base == "BGN" %} selected {% endif %}{% endif %}>BGN</option>
+                                        <option {% if info %}{% if info.base == "CAD" %} selected {% endif %}{% else %} selected {% endif %}>CAD</option>
+                                        <option {% if info %}{% if info.base == "CZK" %} selected {% endif %}{% endif %}>CZK</option>
+                                        <option {% if info %}{% if info.base == "DKK" %} selected {% endif %}{% endif %}>DKK</option>
+                                        <option {% if info %}{% if info.base == "EUR" %} selected {% endif %}{% endif %}>EUR</option>
+                                        <option {% if info %}{% if info.base == "GBP" %} selected {% endif %}{% endif %}>GBP</option>
+                                        <option {% if info %}{% if info.base == "INR" %} selected {% endif %}{% endif %}>INR</option>
+                                        <option {% if info %}{% if info.base == "JPY" %} selected {% endif %}{% endif %}>JPY</option>
+                                        <option {% if info %}{% if info.base == "MXN" %} selected {% endif %}{% endif %}>MXN</option>
+                                        <option {% if info %}{% if info.base == "SEK" %} selected {% endif %}{% endif %}>SEK</option> 
+                                        <option {% if info %}{% if info.base == "USD" %} selected {% endif %}{% endif %}>USD</option>
                                     </select>
                                 </div>
                             </div>
@@ -41,18 +41,18 @@
                                         <span class="input-group-text">To: </span>
                                     </div>
                                     <select class="selectpicker" name = "to">
-                                        <option>AUD</option>
-                                        <option>BGN</option>
-                                        <option>CAD</option>
-                                        <option>CZK</option>
-                                        <option>DKK</option>
-                                        <option>EUR</option>
-                                        <option>GBP</option>
-                                        <option>INR</option>
-                                        <option>JPY</option>
-                                        <option>MXN</option>
-                                        <option>SEK</option> 
-                                        <option selected>USD</option>
+                                        <option {% if info %}{% if info.to == "AUD" %} selected {% endif %}{% endif %}>AUD</option>
+                                        <option {% if info %}{% if info.to == "BGN" %} selected {% endif %}{% endif %}>BGN</option>
+                                        <option {% if info %}{% if info.to == "CAD" %} selected {% endif %}{% endif %}>CAD</option>
+                                        <option {% if info %}{% if info.to == "CZK" %} selected {% endif %}{% endif %}>CZK</option>
+                                        <option {% if info %}{% if info.to == "DKK" %} selected {% endif %}{% endif %}>DKK</option>
+                                        <option {% if info %}{% if info.to == "EUR" %} selected {% endif %}{% endif %}>EUR</option>
+                                        <option {% if info %}{% if info.to == "GBP" %} selected {% endif %}{% endif %}>GBP</option>
+                                        <option {% if info %}{% if info.to == "INR" %} selected {% endif %}{% endif %}>INR</option>
+                                        <option {% if info %}{% if info.to == "JPY" %} selected {% endif %}{% endif %}>JPY</option>
+                                        <option {% if info %}{% if info.to == "MXN" %} selected {% endif %}{% endif %}>MXN</option>
+                                        <option {% if info %}{% if info.to == "SEK" %} selected {% endif %}{% endif %}>SEK</option> 
+                                        <option {% if info %}{% if info.to == "USD" %} selected {% endif %}{% else %} selected {% endif %}>USD</option>
                                     </select>
                                 </div>
                             </div>
