@@ -1,16 +1,16 @@
 # Cloud Currency Converter
-Cloud Computing assignment - Python/Flask app with a few additional packages for future expansion. (IE RSS feeds, weather etc)  
+Cloud Computing assignment - Python/Flask app with a few additional packages for future expansion. (IE RSS feeds, weather, more robust conversions, etc.)  
  
 Group Project:
-(Enter names etc here)
 Kayson Scavarelli - 0679679
 Mekaal Swerhun - 0664033
 Joseph Kahara - 0670135
 Jasmine Foley - 0593591 
 
 App:
-Python 2.7+
-Flask
+Python 3.7
+Flask 1.0.2
+requests 2.22.0
 CSS/HTML5
 Bootstrap as an additional CSS resource.
 
